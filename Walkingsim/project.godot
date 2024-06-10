@@ -12,12 +12,12 @@ config_version=5
 
 config/name="Walkingsim"
 run/main_scene="res://world.tscn"
-config/features=PackedStringArray("4.0", "Forward Plus")
+config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/simplegrasstextured/plugin.cfg", "res://addons/multimesh_scatter/plugin.cfg")
+enabled=PackedStringArray("res://addons/multimesh_scatter/plugin.cfg", "res://addons/simplegrasstextured/plugin.cfg")
 
 [input]
 
